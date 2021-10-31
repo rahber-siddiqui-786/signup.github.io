@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: aqua;
+}
+
+.signup {
+    width: 400px;  
+    margin: auto; 
+    padding: 80px;
+    background: purple;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+label{
+    color: aquamarine;
+    font-size:17px;
+}
+
+#r1{
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+}
+
+#r2{
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+#r3{
+    float: right;
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+#male{
+    color: white;
+    padding-left: 60px;
+}
+#female{
+    color: white;
+    padding-left: 20px;
+}
+#mob{
+    float: right;
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+#pass{
+    float: right;
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+#day{
+    
+    width: 90px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+#month{
+   
+    width: 90px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+#year{
+    
+    width: 90px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+#city{
+    float: right;
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+#submit{  
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px; 
+    margin-left: 120px;
+    color: blue;  
+
+} 
+#reset{
+    width: 100px;
+    height: 30px;
+    border-radius: 17px;
+    border: none;
+    color: blue;
+    margin-left: 25px;
+    padding: auto;
+}
+
+#submit:hover{
+    color: black;
+    background-color: greenyellow;
+    
+    transition: .3;
+}
+
+#reset:hover{
+    color: black;
+    background-color: greenyellow;
+    
+    transition: .3;
+}
